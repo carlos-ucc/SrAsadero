@@ -28,7 +28,7 @@ export default function MenuSection() {
         </div>
 
         {/* Menu Cards Display */}
-        <motion.div layout class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <AnimatePresence mode="popLayout">
             {menuItems[activeCategory].map((item) => (
               <motion.div
